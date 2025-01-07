@@ -71,7 +71,7 @@ export default function AdminDashboard() {
         app.id === id ? { ...app, status: newStatus } : app
       ))
     } catch (error) {
-      setError(error.message)
+      setError("error.message.")
     }
   }
 

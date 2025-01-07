@@ -40,7 +40,7 @@ export default function AnalyticsDashboard() {
 
         setAnalyticsData(analyticsData)
       } catch (error) {
-        setError(error.message)
+        setError(" Failed to fetch analytics data. Please try again later.")
       } finally {
         setLoading(false)
       }

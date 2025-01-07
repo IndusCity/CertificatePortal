@@ -49,7 +49,7 @@ export default function AdminDashboard() {
 
         setApplications(data)
       } catch (error) {
-        setError(error.message)
+        setError("  Failed to fetch applications. Please try again later.")
       } finally {
         setLoading(false)
       }

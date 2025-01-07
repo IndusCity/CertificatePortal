@@ -47,7 +47,7 @@ export function AffidavitAndDebarmentForm({
             <Label htmlFor="firmName">Name Of Firm</Label>
             <Input 
               id="firmName" 
-              {...register('firmName')}
+              {...register('legalName')}
               onFocus={() => handleInputFocus('firmName')}
               onBlur={handleInputBlur}
             />
@@ -55,7 +55,7 @@ export function AffidavitAndDebarmentForm({
           <div className="space-y-2">
             <Checkbox 
               id="agreementCheckbox" 
-              {...register('agreementCheckbox')}
+              {...register('legalName')}
             />
             <Label htmlFor="agreementCheckbox" className="text-sm">
               I declare under penalty of perjury that the information provided in this application and supporting documents is true and correct.
@@ -65,7 +65,7 @@ export function AffidavitAndDebarmentForm({
             <Label htmlFor="signatureName">Signature Of Authorized Owner *</Label>
             <Input 
               id="signatureName" 
-              {...register('signatureName')}
+              {...register('legalName')}
               onFocus={() => handleInputFocus('signatureName')}
               onBlur={handleInputBlur}
             />
@@ -75,7 +75,7 @@ export function AffidavitAndDebarmentForm({
             <Input 
               id="signatureDate" 
               type="date"
-              {...register('signatureDate')}
+              {...register('legalName')}
               onFocus={() => handleInputFocus('signatureDate')}
               onBlur={handleInputBlur}
             />
@@ -84,7 +84,7 @@ export function AffidavitAndDebarmentForm({
             <Label htmlFor="signatureTitle">Printed Name and Title *</Label>
             <Input 
               id="signatureTitle" 
-              {...register('signatureTitle')}
+              {...register('legalName')}
               onFocus={() => handleInputFocus('signatureTitle')}
               onBlur={handleInputBlur}
             />
